@@ -85,6 +85,7 @@ def game_over_message(winner):
     
     pygame.display.flip()  # 화면 업데이트
 
+
 def reset_game():
     global stones
     stones = []  # 돌 목록 초기화
